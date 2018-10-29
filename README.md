@@ -6,5 +6,6 @@ Za object-relation mapiranje koristio  sam java persistance API(JPA) odnosno Hib
 Kreirane su CRUD operacije za autore odnosno knjige.
 Putanje za CRUD operacije autora su:
 GET-localhost:8080/book/books
-POST-localhost:8080/book/
-PUT-localhost:8080/book/
+POST-localhost:8080/book/{autorID}
+PUT-localhost:8080/book/{authorID}/{bookID}
+DELETE-localhost:8080/book/{authorID}/{bookID}
